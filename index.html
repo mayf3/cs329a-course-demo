@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS329A 中文结构化课程 — AI 课程生成工作流 Demo</title>
+<meta name="description" content="斯坦福 CS329A 自进化 AI Agent 课程（20 讲免费公开课），经 AI 课程生成工作流转成中文结构化课程：图文教程 + 视频脚本 + 练习题 + 可运行 demo 四件套，每个知识点可溯源到原课。免费试读前 3 讲。">
+<meta property="og:title" content="斯坦福 CS329A，20 讲全免费——但你大概率啃不完">
+<meta property="og:description" content="我们把 CS329A 变成一门中文结构化课程：图文教程 + 视频脚本 + 练习题 + 可运行 demo，每个知识点可溯源到斯坦福原课。">
+<style>
+  :root { --blue:#2563eb; --ink:#1a1a1a; --muted:#666; --bg:#fafafa; --card:#fff; --line:#e5e5e5; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--ink); line-height:1.7; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  .badge { display:inline-block; background:#eef4ff; color:var(--blue); border:1px solid #d4e2ff; font-size:12px; padding:3px 10px; border-radius:20px; margin-bottom:16px; }
+  h1 { font-size:34px; line-height:1.3; margin-bottom:12px; }
+  .sub { font-size:17px; color:var(--muted); margin-bottom:32px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:24px; margin-bottom:20px; }
+  .card h2 { font-size:18px; margin-bottom:12px; }
+  .video-wrap { position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; background:#000; margin-bottom:8px; }
+  .video-wrap video { position:absolute; top:0; left:0; width:100%; height:100%; border:0; }
+  .four { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:12px 0; }
+  .four .item { border:1px solid var(--line); border-radius:10px; padding:16px; }
+  .four .item .icon { font-size:22px; }
+  .four .item .name { font-weight:600; margin:6px 0 4px; }
+  .four .item .desc { font-size:13px; color:var(--muted); }
+  .qa { margin:12px 0; }
+  .qa .q { border-left:3px solid var(--blue); background:#f5f8ff; padding:10px 14px; border-radius:0 8px 8px 0; margin-bottom:8px; font-size:14px; }
+  .qa .q .tag { font-size:12px; color:var(--muted); display:block; margin-top:2px; }
+  .cta { background:#1a1a1a; color:#fff; border-radius:12px; padding:28px; text-align:center; margin-top:8px; }
+  .cta h2 { color:#fff; margin-bottom:8px; }
+  .cta p { color:#ccc; font-size:14px; margin-bottom:16px; }
+  .btn { display:inline-block; background:#fff; color:#1a1a1a; text-decoration:none; font-weight:600; padding:10px 24px; border-radius:8px; margin:4px; }
+  .btn.primary { background:var(--blue); color:#fff; }
+  .note { font-size:12px; color:#999; margin-top:12px; }
+  .footer { text-align:center; font-size:12px; color:#999; margin-top:40px; }
+  .disclaimer { background:#f5f5f5; border-radius:8px; padding:12px 16px; font-size:13px; color:var(--muted); margin-top:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">斯坦福 CS329A · AI 课程生成工作流 Demo</span>
+  <h1>斯坦福新课 CS329A，20 讲全免费——但你大概率啃不完</h1>
+  <p class="sub">我们把 CS329A 自进化 AI Agent 课程，变成一门中文结构化课程：图文教程 + 视频脚本 + 练习题 + 可运行 demo 四件套，每个知识点可溯源到原课。</p>
+
+  <div class="card">
+    <h2>Demo：AI 课程生成工作流怎么把 CS329A 变成中文课</h2>
+    <div class="video-wrap">
+      <video controls preload="metadata" poster="poster.png">
+        <source src="cs329a-course-demo-v1.mp4" type="video/mp4">
+        你的浏览器不支持 video 标签。
+      </video>
+    </div>
+    <p class="note">90 秒走查：原料解析 → 课程蓝图 → 四件套生产 → 三道质量关卡 → 打包发布。</p>
+  </div>
+
+  <div class="card">
+    <h2>免费课不缺，缺的是能学完的课</h2>
+    <p>CS329A 是斯坦福 2025 年最值得跟的 AI Agent 新课——但 20 讲英文公开课 + 论文 + 代码，自己啃要几周甚至几个月。收藏了等于学会了，AI 焦虑没治好，先被信息过载淹死。</p>
+  </div>
+
+  <div class="card">
+    <h2>课程生成工作流把 CS329A 原料跑成四件套</h2>
+    <div class="four">
+      <div class="item"><div class="icon">📖</div><div class="name">图文教程</div><div class="desc">每讲拆成模块，中文结构化，每模块 1-2 小时</div></div>
+      <div class="item"><div class="icon">🎧</div><div class="name">视频脚本</div><div class="desc">适合通勤听/看的口语化讲解</div></div>
+      <div class="item"><div class="icon">✏️</div><div class="name">练习题</div><div class="desc">每个模块配练习，学了能验证</div></div>
+      <div class="item"><div class="icon">⚙️</div><div class="name">可运行 demo</div><div class="desc">不用从零搭环境，直接跑起来看效果</div></div>
+    </div>
+    <p>每条知识点标注溯源——来自 CS329A 哪一讲、哪篇论文，你可以随时回原课核对。</p>
+  </div>
+
+  <div class="card">
+    <h2>三道独立质量关卡（AI 初稿不算数）</h2>
+    <div class="qa">
+      <div class="q"><b>事实核查</b>：知识点与斯坦福原课一致<span class="tag">来源：CS329A 公开课 + 论文逐条比对</span></div>
+      <div class="q"><b>demo 运行验证</b>：代码真的能跑<span class="tag">不是截图，是可执行的 demo</span></div>
+      <div class="q"><b>教学设计审查</b>：学习路径合理<span class="tag">按模块拆分，每模块 1-2 小时</span></div>
+    </div>
+    <div class="disclaimer">我们不说「包学会」——我们承诺：内容可溯源、demo 可运行，你可以自己验证。</div>
+  </div>
+
+  <div class="cta">
+    <h2>免费试读前 3 讲</h2>
+    <p>完整图文 + 练习题 + 1 个可运行 demo——先看看这个形式适不适合你</p>
+    <a class="btn primary" href="#" id="payLink">完整课程：¥99 起（按模块数分档）</a>
+    <a class="btn" href="mailto:daretobeyourself.m.y.f@gmail.com">联系免费试读</a>
+    <p class="note">私教/小班 ¥3000-8000/期 · toB 企业培训按项目 ¥2-5 万/期</p>
+  </div>
+
+  <div class="footer">AI 课程生成工作流试点 · CS329A 中文结构化课程 · 需求 → 商业计划书 → 三方审查 → 内容化 → 发布</div>
+</div>
+</body>
+</html>
